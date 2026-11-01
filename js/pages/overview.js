@@ -1,4 +1,4 @@
-import { api } from '../api.js';
+import { api } from './api.js';
 import { $, $$, esc, icon, money, num, timeAgo, skeleton, lineChart, on, toast, confirmDialog, formDialog } from '../ui.js';
 
 const kpi = ({ tone, ico, label, value, sub = '', delta, href }) => `
