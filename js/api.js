@@ -1,4 +1,4 @@
-import { getToken, forceReauth } from './auth.js';
+import { getToken, forceReauth } from '/auth.js';
 
 /**
  * api('/tasks?page=1')                         -> JSON
