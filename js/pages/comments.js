@@ -1,4 +1,4 @@
-import { api } from '../api.js';
+import { api } from './api.js';
 import { $, $$, esc, icon, fmtDate, qs, on, toast, confirmDialog, formDialog, modal, statusBadge, badge, pager, empty, skeleton, errorBox, debounce, timeAgo } from '../ui.js';
 
 const S = { tab: 'prompts', q: '', status: 'all', taskId: '', page: 1, rTask: '' };
