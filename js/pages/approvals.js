@@ -1,4 +1,4 @@
-import { api, downloadFile } from '../api.js';
+import { api, downloadFile } from './api.js';
 import { $, $$, esc, icon, money, num, fmtDate, fmtDateTime, qs, on, toast, confirmDialog, formDialog, modal, statusBadge, pager, empty, skeleton, errorBox, debounce, lazyImages, lightbox, saveBlob, today } from '../ui.js';
 
 /* Filters survive navigation between the folder list and a task's proofs */
