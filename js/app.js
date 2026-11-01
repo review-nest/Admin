@@ -1,6 +1,6 @@
 import { initAuth, loginGoogle, loginEmail, resetPassword, sendVerification, logout, friendlyAuthError, currentUser } from '/auth.js';
 import { api } from '/api.js';
-import { $, $$, icon, esc, toast, on, skeleton, errorBox, confirmDialog } from './ui.js';
+import { $, $$, icon, esc, toast, on, skeleton, errorBox, confirmDialog } from '/ui.js';
 
 const ctx = { me: null, can: () => false, go: (h) => { location.hash = h; }, refreshBadges: () => {} };
 
