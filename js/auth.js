@@ -1,5 +1,5 @@
 /* Firebase Authentication (login only). All data access goes through our own /api with a verified ID token. */
-import { formDialog } from './ui.js';
+import { formDialog } from '/ui.js';
 
 let auth = null; let M = null;
 
